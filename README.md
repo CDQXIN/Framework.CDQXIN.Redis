@@ -4,9 +4,7 @@ Framework.CDQXIN.RedisHelperExt
 该支持读写分离的工具类的webconfig配置方式：
 
 
-
---<?xml version="1.0" encoding="utf-8" ?>
---<configuration>
+<configuration>
     <!--<startup> 
         <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
     </startup>-->
@@ -26,7 +24,8 @@ Framework.CDQXIN.RedisHelperExt
     <add key="RedisConnectionHost" value="127.0.0.1" />
     <add key="RedisConnectionPort" value="6379" />
     <add key="RedisConnectionPassWord" value="cxd2019" />
+
     <add key="RedisPrev" value="title"/>
   </appSettings>
-</configuration>
 
+</configuration>
