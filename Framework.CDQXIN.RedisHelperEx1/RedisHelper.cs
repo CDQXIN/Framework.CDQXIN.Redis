@@ -13,7 +13,7 @@ namespace Framework.CDQXIN.RedisHelperEx1
     public class RedisHelper
     {
         private static readonly string RedisHost = "127.0.0.1:6379";
-        private static readonly string RedisPwd = "sa123456";
+        private static readonly string RedisPwd = "cxd2019";
 
         private static readonly int RedisDbIndex = 0;
         private static readonly object LockObject = new object();

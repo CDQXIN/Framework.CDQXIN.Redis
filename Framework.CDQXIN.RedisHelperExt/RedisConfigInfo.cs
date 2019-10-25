@@ -15,7 +15,7 @@ namespace Framework.CDQXIN.RedisHelperExt
         /// <returns></returns>
         public static RedisConfigInfo GetConfig()
         {
-            return GetConfig("redisconfig");
+            return GetConfig("RedisConfig"); 
         }
         /// <summary>
         /// 获取配置信息

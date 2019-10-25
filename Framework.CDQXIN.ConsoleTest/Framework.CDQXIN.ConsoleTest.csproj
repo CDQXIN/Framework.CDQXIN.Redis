@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,8 +51,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Framework.CDQXIN.RedisHelperExt\Framework.CDQXIN.RedisHelperExt.csproj">
+      <Project>{CD0873CB-8E76-430E-B36D-FA9BE1893C7C}</Project>
+      <Name>Framework.CDQXIN.RedisHelperExt</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Framework.CDQXIN.Redis\Framework.CDQXIN.Redis.csproj">
       <Project>{d5dab9d7-3c7e-41e9-8f6f-0dc8ada688ce}</Project>
       <Name>Framework.CDQXIN.Redis</Name>

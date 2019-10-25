@@ -260,7 +260,7 @@ namespace Framework.CDQXIN.Redis
         public bool StringSet<T>(string redisKey, T redisValue, TimeSpan? expired = null)
         {
             redisKey = AddKeyPrefix(redisKey);
-            var json = JsonDeal.Serialize(redisKey);
+            var json = JsonDeal.Serialize(redisValue);
             return _db.StringSet(redisKey, json, expired);
         }
         /// <summary>
