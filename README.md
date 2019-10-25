@@ -2,6 +2,9 @@
 Redis工具类
 Framework.CDQXIN.RedisHelperExt
 该支持读写分离的工具类的webconfig配置方式：
+
+
+
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
     <!--<startup> 
