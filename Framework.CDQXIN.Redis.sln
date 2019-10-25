@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.CDQXIN.Redis", "Framework.CDQXIN.Redis\Framework.CDQXIN.Redis.csproj", "{D5DAB9D7-3C7E-41E9-8F6F-0DC8ADA688CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.CDQXIN.ConsoleTest", "Framework.CDQXIN.ConsoleTest\Framework.CDQXIN.ConsoleTest.csproj", "{045A90C6-57A8-4D1A-ADEC-BB81BA31801E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.CDQXIN.RedisHelperExt", "Framework.CDQXIN.RedisHelperExt\Framework.CDQXIN.RedisHelperExt.csproj", "{CD0873CB-8E76-430E-B36D-FA9BE1893C7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.CDQXIN.RedisHelperEx1", "Framework.CDQXIN.RedisHelperEx1\Framework.CDQXIN.RedisHelperEx1.csproj", "{34FA1E9B-B3CC-42DB-8760-10D71D7B73B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5DAB9D7-3C7E-41E9-8F6F-0DC8ADA688CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5DAB9D7-3C7E-41E9-8F6F-0DC8ADA688CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5DAB9D7-3C7E-41E9-8F6F-0DC8ADA688CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5DAB9D7-3C7E-41E9-8F6F-0DC8ADA688CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{045A90C6-57A8-4D1A-ADEC-BB81BA31801E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{045A90C6-57A8-4D1A-ADEC-BB81BA31801E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{045A90C6-57A8-4D1A-ADEC-BB81BA31801E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{045A90C6-57A8-4D1A-ADEC-BB81BA31801E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD0873CB-8E76-430E-B36D-FA9BE1893C7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD0873CB-8E76-430E-B36D-FA9BE1893C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD0873CB-8E76-430E-B36D-FA9BE1893C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD0873CB-8E76-430E-B36D-FA9BE1893C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FA1E9B-B3CC-42DB-8760-10D71D7B73B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FA1E9B-B3CC-42DB-8760-10D71D7B73B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FA1E9B-B3CC-42DB-8760-10D71D7B73B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FA1E9B-B3CC-42DB-8760-10D71D7B73B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F42C117-F385-4764-A574-2B7F967A56C4}
+	EndGlobalSection
+EndGlobal
