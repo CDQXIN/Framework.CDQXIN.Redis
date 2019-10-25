@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.CDQXIN.RedisHelpe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.CDQXIN.RedisHelperEx1", "Framework.CDQXIN.RedisHelperEx1\Framework.CDQXIN.RedisHelperEx1.csproj", "{34FA1E9B-B3CC-42DB-8760-10D71D7B73B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.CDQXIN.RedisHelperEx2", "Framework.CDQXIN.RedisHelperEx2\Framework.CDQXIN.RedisHelperEx2.csproj", "{C2AB0683-A025-4609-BD5E-C6E1AD9F1A6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{34FA1E9B-B3CC-42DB-8760-10D71D7B73B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34FA1E9B-B3CC-42DB-8760-10D71D7B73B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34FA1E9B-B3CC-42DB-8760-10D71D7B73B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2AB0683-A025-4609-BD5E-C6E1AD9F1A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2AB0683-A025-4609-BD5E-C6E1AD9F1A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2AB0683-A025-4609-BD5E-C6E1AD9F1A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2AB0683-A025-4609-BD5E-C6E1AD9F1A6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
